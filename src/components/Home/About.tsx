@@ -16,7 +16,7 @@ export default function AboutSection() {
     <section className="py-20 bg-black text-white border border-zinc-900">
       <div className="max-w-7xl mx-auto px-8 text-center">
         <motion.h2 
-          className="text-6xl font-extrabold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-600" 
+          className="text-4xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-amber-300" 
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }} 
           transition={{ duration: 0.6 }}
@@ -59,12 +59,8 @@ export default function AboutSection() {
         </div>
 
         <div className="mt-16">
-          <Link href="/about" passHref>
-            <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-blue-600 hover:to-cyan-500 text-white font-semibold py-4 px-8 rounded-xl shadow-lg transition-all">
-              Learn More
-            </Button>
-          </Link>
-        </div>
+        <div className="flex items-center justify-center mt-12"> <Link href="/courses" target="black" ><Button variant={"outline"} className="text-white bg-black border border-zinc-800 hover:bg-zinc-900 hover:text-white rounded-2xl">Learn More</Button></Link></div>
+    </div>
       </div>
     </section>
   );

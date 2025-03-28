@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -15,9 +16,10 @@ function Hero() {
         <p className="text-xl text-gray-600 mb-6">
           MockVault Leveraging AI Bots for Interview Prep
         </p>
-        <Button variant="secondary" className=" px-6 py-2 rounded-xl bg-black border border-gray-600 text-white hover:bg-zinc-900" >
+        <Link href="/home"> <Button variant="secondary" className=" px-6 py-2 rounded-xl bg-black border border-gray-600 text-white hover:bg-zinc-900" >
           1:1 Session
-        </Button>
+        </Button></Link>
+       
       </div>
 
       {/* Video Section */}
