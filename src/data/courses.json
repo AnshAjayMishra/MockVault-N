@@ -1,0 +1,65 @@
+{
+    "subjects": [
+      {
+        "name": "Operating Systems",
+        "hours": "30h",
+        "lessons": 25,
+        "rating": "4.8",
+        "level": "Intermediate",
+        "link": "/os",
+        "image": "/image/image.png",
+        "isFeatured": true
+      },
+      {
+        "name": "Computer Networks",
+        "hours": "28h",
+        "lessons": 22,
+        "rating": "4.7",
+        "level": "Beginner",
+        "link": "/cn",
+        "image": "/image/image.png",
+        "isFeatured": false
+      },
+      {
+        "name": "Database Management",
+        "hours": "35h",
+        "lessons": 30,
+        "rating": "4.9",
+        "level": "Advanced",
+        "link": "/dbms",
+        "image": "/image/image.png",
+        "isFeatured": true
+      },
+      {
+        "name": "DSA Questions",
+        "hours": "40h",
+        "lessons": 50,
+        "rating": "4.9",
+        "level": "Intermediate",
+        "link": "/dsa",
+        "image": "/image/image.png",
+        "isFeatured": true
+      },
+      {
+        "name": "Company-wise Questions",
+        "hours": "50h",
+        "lessons": 60,
+        "rating": "4.8",
+        "level": "Advanced",
+        "link": "/company-questions",
+        "image": "/image/image.png",
+        "isFeatured": false
+      },
+      {
+        "name": "Aptitude Questions",
+        "hours": "20h",
+        "lessons": 15,
+        "rating": "4.5",
+        "level": "Beginner",
+        "link": "/aptitude",
+        "image": "/image/image.png",
+        "isFeatured": false
+      }
+    ]
+  }
+  
