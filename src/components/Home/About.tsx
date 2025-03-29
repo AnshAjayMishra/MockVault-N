@@ -13,7 +13,7 @@ const cardVariants = {
 
 export default function AboutSection() {
   return (
-    <section className="py-20 bg-black text-white border border-zinc-900">
+    <section className="py-20 bg-black text-white">
       <div className="max-w-7xl mx-auto px-8 text-center">
         <motion.h2 
           className="text-4xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-amber-300" 
