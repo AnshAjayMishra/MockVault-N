@@ -58,7 +58,7 @@ const Navbar = () => {
           ) : (
             <>
                 <button className="text-white hover:text-gray-400"><SignInButton /></button>
-              <button className="px-4 py-2 bg-zinc-300 text-gray-900 rounded hover:bg-gray-400">
+              <button className="px-4 py-2 bg-zinc-200 text-gray-900 rounded hover:bg-gray-400">
                 Book a demo
               </button>
             </>
