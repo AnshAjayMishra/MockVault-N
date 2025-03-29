@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* Right Section - Conditionally render auth components */}
         <div className="flex items-center space-x-4">
           {isSignedIn ? (
-            <div className="flex items-center gap-4">
+            <div className="flex items-center border border-zinc-600 rounded-full gap-4 hover:border-cyan-200">
               <UserButton afterSignOutUrl="/" />
             </div>
           ) : (
