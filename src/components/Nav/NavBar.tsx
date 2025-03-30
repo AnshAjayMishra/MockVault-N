@@ -1,0 +1,60 @@
+"use client"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { LayoutDashboard } from "lucide-react"
+import { ModeToggle } from "../ui/toggle"
+import { UserButton } from "@clerk/nextjs"
+import { useUser } from "@clerk/nextjs"
+import Image from "next/image"
+import logo from "../../../public/image/logo.png"
+
+export function Navbar() {
+  const { isSignedIn } = useUser()
+
+  return (
+    <nav className="fixed top-0 w-full bg-white dark:bg-black border-b border-gray-200 dark:border-gray-800 z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          {/* Left side - Logo */}
+          <Link href="/home" className="flex-shrink-0">
+            <Image src={logo}
+             alt="Logo"
+             width={26} 
+             height={26} 
+             className="space-x-2"
+             ></Image>
+          </Link>
+
+          {/* Right side - Navigation items */}
+          <div className="flex items-center gap-4">
+            {/* Theme Toggle */}
+            <ModeToggle />
+
+            {/* Dashboard Button */}
+            {isSignedIn && (
+              <Button asChild variant="default" className="gap-2">
+                <Link href="/dashboard">
+                  <LayoutDashboard className="h-4 w-4" />
+                  Dashboard
+                </Link>
+              </Button>
+            )}
+
+            {/* Clerk User Profile */}
+            <div className="ml-4 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors">
+              <UserButton
+                afterSignOutUrl="/"
+                appearance={{
+                  elements: {
+                    avatarBox: "h-9 w-9",
+                    userButtonPopoverCard: "dark:bg-black dark:border-gray-800",
+                  },
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
+}
