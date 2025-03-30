@@ -7,6 +7,7 @@ import { UserButton } from "@clerk/nextjs"
 import { useUser } from "@clerk/nextjs"
 import Image from "next/image"
 import logo from "../../../public/image/logo.png"
+import logo1 from "../../../public/image/logo1.png"
 
 export function Navbar() {
   const { isSignedIn } = useUser()
@@ -17,12 +18,23 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Left side - Logo */}
           <Link href="/home" className="flex-shrink-0">
-            <Image src={logo}
-             alt="Logo"
-             width={26} 
-             height={26} 
-             className="space-x-2"
-             ></Image>
+            {/* Light Mode Logo */}
+      <Image
+        src={logo1}
+        alt="Light Mode Logo"
+        width={26}
+        height={26}
+        className="space-x-2 dark:hidden"
+      />
+      
+      {/* Dark Mode Logo */}
+      <Image
+        src={logo}
+        alt="Dark Mode Logo"
+        width={26}
+        height={26}
+        className="space-x-2 hidden dark:block"
+      />
           </Link>
 
           {/* Right side - Navigation items */}
