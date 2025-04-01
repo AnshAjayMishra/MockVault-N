@@ -22,7 +22,7 @@ MockVault is built with the goal of bridging the gap between theoretical knowled
 
 
 ## 📧 Contact
-For any queries or support, reach out at [ajayanshmishra10@gmail.com](mailto:ajayanshmishra10@gmail.com).
+For any queries or support, reach out at [Here](mailto:ajayanshmishra10@gmail.com).
 
 ---
 
