@@ -17,6 +17,7 @@ MockVault is an innovative platform designed to help technical students excel in
 - **Authentication:** Clerk
 - **Deployment:** Vercel (Frontend), Heroku or AWS (Backend)
 
+
 ## 🎯 Purpose
 MockVault is built with the goal of bridging the gap between theoretical knowledge and practical interview scenarios. Whether you're a fresher or an experienced professional, this platform offers a tailored experience to sharpen your technical skills.
 
