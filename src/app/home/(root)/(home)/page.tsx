@@ -1,7 +1,7 @@
 import { UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
-import ClientWrapper from "./client-wrapper";
+import ClientWrapper from "../../client-wrapper";
 import { Navbar } from "@/components/Nav/NavBar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Hero from "@/components/Home/HomeUi/hero";

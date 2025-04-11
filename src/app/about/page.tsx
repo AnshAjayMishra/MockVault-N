@@ -3,26 +3,8 @@
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Navigation */}
-      <nav className="border-b border-gray-800 py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-indigo-400">MockVault</h2>
-            <div className="flex space-x-6">
-              <a href="/" className="text-gray-300 hover:text-white transition-colors">
-                Home
-              </a>
-              <a href="/about" className="text-gray-300 hover:text-white transition-colors">
-                About
-              </a>
-              <button className="px-4 py-2 border border-gray-300 rounded-md text-white hover:border-white transition-colors">
-                Join Now
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+    
+   
       {/* Hero Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center space-y-6">
@@ -37,7 +19,7 @@ export default function AboutPage() {
       </div>
 
       {/* Content Section */}
-      <section className="bg-gray-900 py-20">
+      <section className="bg-zinc-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-6">
@@ -50,7 +32,7 @@ export default function AboutPage() {
                 paths for core CS subjects and DSA.
               </p>
               <div className="flex gap-4">
-                <a href="/" className="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors">
+                <a href="/" className="px-6 py-3 bg-zinc-600 text-white rounded-md hover:bg-indigo-700 transition-colors">
                   Get Started
                 </a>
                 <a href="/resources" className="px-6 py-3 border border-gray-600 text-white rounded-md hover:bg-gray-800 transition-colors">
@@ -100,7 +82,7 @@ export default function AboutPage() {
       <footer className="border-t border-gray-800 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-gray-400">
-            © 2024 MockVault. All rights reserved.
+            © 2025 MockVault. All rights reserved.
           </div>
         </div>
       </footer>
