@@ -50,7 +50,7 @@ export default function Hero() {
             Plan and manage your upcoming interview sessions
           </p>
           <Button asChild variant="outline" className="w-full">
-            <Link href="/schedule">View Calendar</Link>
+            <Link href="/home/schedule">View Calendar</Link>
           </Button>
         </Card>
 
@@ -61,7 +61,7 @@ export default function Hero() {
             Access and review your previous interview recordings
           </p>
           <Button asChild variant="outline" className="w-full">
-            <Link href="/recordings">View Archive</Link>
+            <Link href="/home/recordings">View Archive</Link>
           </Button>
         </Card>
       </div>

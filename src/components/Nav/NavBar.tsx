@@ -45,7 +45,7 @@ export function Navbar() {
             {/* Dashboard Button */}
             {isSignedIn && (
               <Button asChild variant="default" className="gap-2">
-                <Link href="/dashboard">
+                <Link href="/home/dashboard">
                   <LayoutDashboard className="h-4 w-4" />
                   Dashboard
                 </Link>
