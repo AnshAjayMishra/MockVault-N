@@ -1,4 +1,4 @@
-import { clsx, type ClassValue } from "clsx";
+import { type ClassValue, clsx } from "clsx";
 import { addHours, intervalToDuration, isAfter, isBefore, isWithinInterval } from "date-fns";
 import { twMerge } from "tailwind-merge";
 import { Doc } from "../../convex/_generated/dataModel";
