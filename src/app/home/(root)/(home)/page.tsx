@@ -26,6 +26,7 @@ export default async function HomePage() {
           <Navbar />
           <Hero />
         </div>
+        
       </ClientWrapper>
     </ThemeProvider>
   );
