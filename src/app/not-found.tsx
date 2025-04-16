@@ -1,31 +1,42 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { Variable } from "lucide-react";
+import {  X } from 'lucide-react';
 
-function notfound() {
+import Link from 'next/link';
+
+
+const Custom404 = () => {
   return (
-    <div className="flex items-center justify-center w-screen h-screen flex-col">
-      <Variable className="size-20 animate-spin text-zinc-800 dark:text-zinc-100" />
-      <h1 className="text-4xl mt-4 text-zinc-800 dark:text-zinc-50 font-medium">
-        404 - Page Not Found
-      </h1>{" "}
-      <br />
-      <p className="text-lg mb-8 text-zinc-400">
-        {" "}
-        Oops! The page you&apos;re looking for doesn&apos;t exit or has been
-        moved
-      </p>
-      <Link href="/" key="home" className="mb-6">
-        <Button
-          variant={"secondary"}
-          className="hover:bg-zinc-200 dark:hover:bg-zinc-600"
-        >
-          Go back home
-        </Button>
-      </Link>
+    <div className="min-h-screen bg-black flex flex-col items-center justify-center p-4">
+      {/* Animated Logo */}
+      <div className="animate-pulse mb-8">
+       <X className='size-18 text-white'/>
+      </div>
+
+      {/* Content */}
+      <div className="text-center space-y-4">
+      <h2 className='text-white font-bold text-3xl'>MockVault</h2>
+        <h1 className="text-6xl font-bold text-white">
+          404
+        </h1>
+        
+        <p className="text-xl text-gray-300">
+          Oops! Page not found
+        </p>
+        <p className="text-gray-400">
+          The page you're looking for doesn't exist or has been moved
+        </p>
+        
+        {/* Back to Home Button */}
+        <div className="pt-8">
+          <Link href="/">
+            <p className="bg-zinc-600  text-white px-6 py-3 rounded-lg 
+              hover:bg-zinc-700  transition-colors duration-300">
+              Go Back Home
+            </p>
+          </Link>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export default notfound;
+export default Custom404;
