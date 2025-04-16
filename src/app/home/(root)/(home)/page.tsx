@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 
-=======
 import { UserButton } from "@clerk/nextjs";
->>>>>>> a8d20dc45006c021288851ab400b027de99a574f
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import ClientWrapper from "../../client-wrapper";
