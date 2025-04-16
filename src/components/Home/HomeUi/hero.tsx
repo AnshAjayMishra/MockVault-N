@@ -119,9 +119,9 @@ export default function Hero() {
         ) : (
           /* Candidate View */
           <div>
-            <div className="mb-8">
+            <div className="mb-8 flex flex-col items-center justify-center">
               <h1 className="text-3xl font-bold dark:text-white">Your Interviews</h1>
-              <p className="text-muted-foreground mt-1">
+              <p className="text-muted-foreground mt-1  ">
                 View and join your scheduled interviews
               </p>
             </div>
