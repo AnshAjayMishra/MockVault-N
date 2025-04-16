@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-<<<<<<< HEAD
+
   "style": "new-york",
   "rsc": true,
   "tsx": true,
@@ -19,7 +19,7 @@
     "hooks": "@/hooks"
   },
   "iconLibrary": "lucide"
-=======
+
   "style": "default",
   "rsc": true,
   "tsx": true,
