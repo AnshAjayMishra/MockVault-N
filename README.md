@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # NextJs-Boiler
 
 🚀 A simple and customizable Next.js boilerplate with Tailwind CSS, TypeScript, and ShadCN UI components.
@@ -119,5 +119,5 @@ For any queries or support, reach out at [Here](https://anshajaymishra.vercel.ap
 Elevate your interview game with **MockVault**!
 
 
->>>>>>> a8d20dc45006c021288851ab400b027de99a574f
+
 
