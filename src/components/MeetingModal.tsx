@@ -18,7 +18,7 @@ function MeetingModal({ isOpen, onClose, title, isJoinMeeting }: MeetingModalPro
   const handleStart = () => {
     if (isJoinMeeting) {
       // if it's a full URL extract meeting ID
-      const meetingId = meetingUrl.split("/").pop();
+      const meetingId = meetingUrl.split("/home").pop();
       if (meetingId) joinMeeting(meetingId);
     } else {
       createInstantMeeting();
