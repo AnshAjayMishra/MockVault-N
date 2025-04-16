@@ -4,11 +4,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import ConvexClerkProvider from "@/components/providers/ConvexClerkProvider";
-<<<<<<< HEAD
 
-=======
 import "@stream-io/video-react-sdk/dist/css/styles.css";
->>>>>>> a8d20dc45006c021288851ab400b027de99a574f
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
