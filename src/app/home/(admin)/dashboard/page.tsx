@@ -1,13 +1,12 @@
 "use client";
 
 import { useMutation, useQuery } from "convex/react";
-<<<<<<< HEAD
+
+
+
 import { api } from "../../../../../convex/_generated/api";
 import { Doc, Id } from "../../../../../convex/_generated/dataModel";
-=======
-import { api } from "../../../../convex/_generated/api";
-import { Doc, Id } from "../../../../convex/_generated/dataModel";
->>>>>>> a8d20dc45006c021288851ab400b027de99a574f
+
 import toast from "react-hot-toast";
 import LoaderUI from "@/components/LoaderUI";
 import { getCandidateInfo, groupInterviews } from "@/lib/utils";
