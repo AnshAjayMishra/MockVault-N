@@ -44,7 +44,7 @@ export function Navbar() {
 
             {/* Dashboard Button */}
             {isSignedIn && (
-              <Button asChild variant="default" className="gap-2">
+              <Button asChild variant="default" className="gap-2 bg-black text-white dark:text-black dark:bg-white hover:dark:bg-gray-700 hover:bg-zinc-800">
                 <Link href="/home/dashboard">
                   <LayoutDashboard className="h-4 w-4" />
                   Dashboard

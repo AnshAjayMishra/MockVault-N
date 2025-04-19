@@ -57,14 +57,14 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Feature Cards */}
             <Card className="p-6 hover:shadow-lg transition-shadow dark:bg-black border border-gray-300 dark:border-zinc-900">
-              <PlusCircle className="h-8 w-8 mb-4 text-primary" />
-              <h3 className="text-xl font-semibold mb-2 dark:text-white">New Call</h3>
+              <PlusCircle className="h-8 w-8 mb-4 text-black dark:text-white" />
+              <h3 className="text-xl font-semibold mb-2 dark:text-white text-black">New Call</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Start a new mock interview session with customizable settings
               </p>
               <Button 
                 variant="outline" 
-                className="w-full"
+                className="w-full  text-white bg-black hover:text-zinc-700"
                 onClick={() => handleQuickAction("New Call")}
               >
                 Start Now
@@ -72,14 +72,14 @@ export default function Hero() {
             </Card>
 
             <Card className="p-6 hover:shadow-lg transition-shadow dark:bg-black border border-gray-300 dark:border-zinc-900">
-              <Video className="h-8 w-8 mb-4 text-primary" />
-              <h3 className="text-xl font-semibold mb-2 dark:text-white">Join Interview</h3>
+              <Video className="h-8 w-8 mb-4 text-black dark:text-white" />
+              <h3 className="text-xl font-semibold mb-2 dark:text-white text-black">Join Interview</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Join an existing interview session with a unique code
               </p>
               <Button 
                 variant="outline" 
-                className="w-full"
+                className="w-full  text-white bg-black hover:text-zinc-700"
                 onClick={() => handleQuickAction("Join Interview")}
               >
                 Join Session
@@ -87,14 +87,14 @@ export default function Hero() {
             </Card>
 
             <Card className="p-6 hover:shadow-lg transition-shadow dark:bg-black border border-gray-300 dark:border-zinc-900">
-              <Calendar className="h-8 w-8 mb-4 text-primary" />
-              <h3 className="text-xl font-semibold mb-2 dark:text-white">Schedule</h3>
+              <Calendar className="h-8 w-8 mb-4  text-black dark:text-white" />
+              <h3 className="text-xl font-semibold mb-2 dark:text-white text-black">Schedule</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Plan and manage your upcoming interview sessions
               </p>
               <Button 
                 variant="outline" 
-                className="w-full"
+                className="w-full  text-white bg-black hover:text-zinc-700"
                 onClick={() => handleQuickAction("Schedule")}
               >
                 View Calendar
@@ -102,14 +102,14 @@ export default function Hero() {
             </Card>
 
             <Card className="p-6 hover:shadow-lg transition-shadow dark:bg-black border border-gray-300 dark:border-zinc-900">
-              <Archive className="h-8 w-8 mb-4 text-primary" />
-              <h3 className="text-xl font-semibold mb-2 dark:text-white">Recordings</h3>
+              <Archive className="h-8 w-8 mb-4 text-black dark:text-white" />
+              <h3 className="text-xl font-semibold mb-2 dark:text-white text-black">Recordings</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Access and review your previous interview recordings
               </p>
               <Button 
                 variant="outline" 
-                className="w-full"
+                className="w-full text-white bg-black hover:text-zinc-700"
                 onClick={() => handleQuickAction("Recordings")}
               >
                 View Archive
@@ -120,7 +120,7 @@ export default function Hero() {
           /* Candidate View */
           <div>
             <div className="mb-8 flex flex-col items-center justify-center">
-              <h1 className="text-3xl font-bold dark:text-white">Your Interviews</h1>
+              <h1 className="text-3xl font-bold text-black dark:text-white">Your Interviews</h1>
               <p className="text-muted-foreground mt-1  ">
                 View and join your scheduled interviews
               </p>
