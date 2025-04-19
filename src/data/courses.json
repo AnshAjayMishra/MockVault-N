@@ -7,7 +7,7 @@
         "rating": "4.8",
         "level": "Intermediate",
         "link": "/os",
-        "image": "/image/image.png",
+        "image": "/course/os.jpeg",
         "isFeatured": true
       },
       {
@@ -17,7 +17,7 @@
         "rating": "4.7",
         "level": "Beginner",
         "link": "/cn",
-        "image": "/image/image.png",
+        "image": "/course/cn.jpeg",
         "isFeatured": false
       },
       {
@@ -27,7 +27,7 @@
         "rating": "4.9",
         "level": "Advanced",
         "link": "/dbms",
-        "image": "/image/image.png",
+        "image": "/course/dbms.jpeg",
         "isFeatured": true
       },
       {
@@ -37,7 +37,7 @@
         "rating": "4.9",
         "level": "Intermediate",
         "link": "/dsa",
-        "image": "/image/image.png",
+        "image": "/course/dsa.jpeg",
         "isFeatured": true
       },
       {
@@ -47,7 +47,7 @@
         "rating": "4.8",
         "level": "Advanced",
         "link": "/company-questions",
-        "image": "/image/image.png",
+        "image": "/course/compq.jpeg",
         "isFeatured": false
       },
       {
@@ -57,7 +57,7 @@
         "rating": "4.5",
         "level": "Beginner",
         "link": "/aptitude",
-        "image": "/image/image.png",
+        "image": "/course/apti.jpeg",
         "isFeatured": false
       }
     ]

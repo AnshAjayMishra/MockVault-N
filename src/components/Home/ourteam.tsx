@@ -21,24 +21,24 @@ function TeamSection() {
       <div className="grid md:grid-cols-4 gap-8">
         {[
           {
-            name: "Alex Morgan",
+            name: "Ansh Ajay Mishra",
             role: "Founder & CEO",
-            image: "/placeholder.svg?height=400&width=400",
+            image: "/team/ansh.jpg",
           },
           {
             name: "Sam Rivera",
             role: "Chief Technology Officer",
-            image: "/placeholder.svg?height=400&width=400",
+            image: "/team/1.jpg",
           },
           {
             name: "Taylor Chen",
             role: "Head of Design",
-            image: "/placeholder.svg?height=400&width=400",
+            image: "/team/2.png",
           },
           {
             name: "Jordan Lee",
             role: "Product Director",
-            image: "/placeholder.svg?height=400&width=400",
+            image: "/team/3.png",
           },
         ].map((member, index) => (
           <div key={index} className="group">
