@@ -19,8 +19,8 @@ function Hero() {
           </p>
           <Link href="/home">
             <Button
-              variant="secondary"
-              className="px-6 py-2 rounded-xl bg-black border border-gray-600 text-white hover:bg-zinc-900"
+              variant="outline"
+              className="px-6 py-2 rounded-xl bg-black border border-zinc-900 text-white hover:bg-zinc-800 hover:text-white"
             >
               1:1 Session
             </Button>
