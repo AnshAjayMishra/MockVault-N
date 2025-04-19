@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function  Footer() {
@@ -7,22 +8,32 @@ export default function  Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <Link href="/" className="text-xl font-bold text-white hover:text-gray-300 transition-colors">
-              Mock Vault
-            </Link>
-            <p className="text-sm text-gray-400">
-              Master your skills with interactive courses and accelerate your career growth.
-            </p>
-          </div>
+  <div className="flex items-center space-x-2">
+    <Image
+      src="/image/logo.png" // ← your logo path
+      alt="Mock Vault Logo"
+      width={40}
+      height={40}
+      className="rounded-md pointer-events-none"
+    />
+    <Link href="/" className="text-xl font-bold text-white hover:text-gray-300 transition-colors">
+      Mock Vault
+    </Link>
+  </div>
+  <p className="text-sm text-gray-400">
+    Master your skills with interactive courses and accelerate your career growth.
+  </p>
+</div>
+
 
           {/* Courses Section */}
           <div className="space-y-2">
             <h3 className="text-lg font-semibold text-white">Courses</h3>
             <ul className="space-y-2">
-              <li><Link href="/courses/web-development" className="hover:text-white transition-colors">Web Development</Link></li>
-              <li><Link href="/courses/data-science" className="hover:text-white transition-colors">Data Science</Link></li>
-              <li><Link href="/courses/cloud-computing" className="hover:text-white transition-colors">Cloud Computing</Link></li>
-              <li><Link href="/courses/cybersecurity" className="hover:text-white transition-colors">Cybersecurity</Link></li>
+              <li><Link href="/courses/cybersecurity" className="hover:text-white transition-colors">Computer Networks</Link></li>
+              <li><Link href="/courses/data-science" className="hover:text-white transition-colors">DBMS</Link></li>
+              <li><Link href="/courses/web-development" className="hover:text-white transition-colors">DSA Questions</Link></li>
+              <li><Link href="/courses/cloud-computing" className="hover:text-white transition-colors">Operating System</Link></li>
             </ul>
           </div>
 

@@ -40,7 +40,7 @@ export default function AboutSection() {
                   width={800}
                   height={600}
                   alt="Our mission"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover pointer-events-none"
                 />
               </div>
               <div className="absolute -bottom-5 -right-5 w-32 h-32 bg-gradient-to-tl from-blue-500/20 to-transparent rounded-full blur-2xl"></div>
