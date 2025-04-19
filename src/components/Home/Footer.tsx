@@ -17,7 +17,7 @@ export default function  Footer() {
       className="rounded-md pointer-events-none"
     />
     <Link href="/" className="text-xl font-bold text-white hover:text-gray-300 transition-colors">
-      Mock Vault
+      MockVault
     </Link>
   </div>
   <p className="text-sm text-gray-400">
