@@ -3,7 +3,7 @@ import React from 'react'
 
 function TeamSection() {
   return (
-    <div className='max-w-7xl mx-auto  px-8 text-center'>
+    <div className='max-w-7xl mx-auto  px-8 text-center' id='ourteam'>
     <section className="py-20">
     <div className="container mx-auto px-4">
       <div className="text-center mb-16">

@@ -14,7 +14,7 @@ const cardVariants = {
 
 export default function AboutSection() {
   return (
-    <main className="max-w-7xl mx-auto px-8 text-center">
+    <main  className="max-w-7xl mx-auto px-8 text-center" id="aboutp">
     <section className="py-20 bg-black text-white">
       <div className="max-w-7xl mx-auto px-8 text-center">
         <motion.h2 

@@ -1,9 +1,16 @@
-"use client"
+"use client";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 import React from "react";
-import logo from "../../../public/image/logo.png"
+import logo from "../../../public/image/logo.png";
 import Image from "next/image";
 import { SignInButton, UserButton, useUser } from "@clerk/nextjs";
-import Link from "next/link";
 
 const Navbar = () => {
   const { isSignedIn } = useUser();
@@ -12,11 +19,11 @@ const Navbar = () => {
     <div className="bg-black">
       <nav className="mx-auto max-w-7xl flex items-center justify-between bg-black font-[Aileron] px-8 py-6 shadow-md space-y-3">
         <div className="flex items-center space-x-3">
-          <Image 
-            src={logo} 
-            alt="logo" 
-            width={22} 
-            height={22} 
+          <Image
+            src={logo}
+            alt="logo"
+            width={22}
+            height={22}
             className="space-x-2"
           />
           <h1 className="text-lg font-bold text-white">MockVault</h1>
@@ -41,10 +48,41 @@ const Navbar = () => {
             </>
           ) : (
             <>
-              <li className="cursor-pointer hover:text-gray-400">Library</li>
-              <li className="cursor-pointer hover:text-gray-400">Signal AI</li>
-              <li className="cursor-pointer hover:text-gray-400">About Us</li>
+              <li className="cursor-pointer hover:text-gray-400">
+                {" "}
+                <Link
+                  href=""
+                  activeClass="active"
+                  to="aboutp"
+                  spy={true}
+                  smooth={true}
+                  hashSpy={true}
+                  offset={50}
+                >
+                  About Us
+                </Link>
+              </li>
               <li className="cursor-pointer hover:text-gray-400">Careers</li>
+              <li className="cursor-pointer hover:text-gray-400">
+                <Link href="/courses">Library</Link>
+              </li>
+              <li className="cursor-pointer hover:text-gray-400">
+                <Link
+                  activeClass="active"
+                  to="ourteam"
+                  spy={true}
+                  smooth={true}
+                  hashSpy={true}
+                  offset={50}duration={500}
+                  delay={1000}
+                  isDynamic={true}
+                 
+                  ignoreCancelEvents={false}
+                  spyThrottle={500}
+                >
+                  Our Team
+                </Link>
+              </li>
             </>
           )}
         </ul>
