@@ -5,8 +5,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
-  ShieldCheck,
-  LockKeyhole,
   ArrowRight,
   Lightbulb,
   Users,

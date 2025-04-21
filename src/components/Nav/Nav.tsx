@@ -1,4 +1,5 @@
 "use client";
+
 import {
   Link,
   Button,
@@ -62,7 +63,9 @@ const Navbar = () => {
                   About Us
                 </Link>
               </li>
-              <li className="cursor-pointer hover:text-gray-400">Careers</li>
+              <li className="cursor-pointer hover:text-gray-400">
+                <Link href="/careers">Careers</Link>
+              </li>
               <li className="cursor-pointer hover:text-gray-400">
                 <Link href="/courses">Library</Link>
               </li>
