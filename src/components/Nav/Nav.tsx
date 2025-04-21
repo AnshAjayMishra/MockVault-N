@@ -53,30 +53,29 @@ const Navbar = () => {
               <li className="cursor-pointer hover:text-gray-400">
                 {" "}
                 <Link
-                activeClass="active"
-                 to="aboutp"
-               spy={true}
-                 smooth={true}
-               offset={50}
-                  >
-                   About Us
-                      </Link>
-
+                  activeClass="active"
+                  to="aboutp"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                >
+                  About Us
+                </Link>
               </li>
               <li className="cursor-pointer hover:text-gray-400">Careers</li>
               <li className="cursor-pointer hover:text-gray-400">
                 <Link href="/courses">Library</Link>
               </li>
               <li className="cursor-pointer hover:text-gray-400">
-              <Link
-       activeClass="active"
-          to="ourteam"
-          spy={true}
-       smooth={true}
-             offset={50}
-                    >
-            Our Team
-              </Link>
+                <Link
+                  activeClass="active"
+                  to="ourteam"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                >
+                  Our Team
+                </Link>
               </li>
             </>
           )}
