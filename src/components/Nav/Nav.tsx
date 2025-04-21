@@ -4,6 +4,8 @@ import {
   Button,
   Element,
   Events,
+  activeClass,
+  to,
   animateScroll as scroll,
   scrollSpy,
 } from "react-scroll";
@@ -51,37 +53,30 @@ const Navbar = () => {
               <li className="cursor-pointer hover:text-gray-400">
                 {" "}
                 <Link
-                  href=""
-                  activeClass="active"
-                  to="aboutp"
-                  spy={true}
-                  smooth={true}
-                  hashSpy={true}
-                  offset={50}
-                >
-                  About Us
-                </Link>
+                activeClass="active"
+                 to="aboutp"
+               spy={true}
+                 smooth={true}
+               offset={50}
+                  >
+                   About Us
+                      </Link>
+
               </li>
               <li className="cursor-pointer hover:text-gray-400">Careers</li>
               <li className="cursor-pointer hover:text-gray-400">
                 <Link href="/courses">Library</Link>
               </li>
               <li className="cursor-pointer hover:text-gray-400">
-                <Link
-                  activeClass="active"
-                  to="ourteam"
-                  spy={true}
-                  smooth={true}
-                  hashSpy={true}
-                  offset={50}duration={500}
-                  delay={1000}
-                  isDynamic={true}
-                 
-                  ignoreCancelEvents={false}
-                  spyThrottle={500}
-                >
-                  Our Team
-                </Link>
+              <Link
+       activeClass="active"
+          to="ourteam"
+          spy={true}
+       smooth={true}
+             offset={50}
+                    >
+            Our Team
+              </Link>
               </li>
             </>
           )}

@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
+import { Element } from "react-scroll";
 
 function TeamSection() {
   return (
-    <div className='max-w-7xl mx-auto  px-8 text-center' id='ourteam'>
+     <Element name="ourteam" className="element">
+    <div className='max-w-7xl mx-auto  px-8 text-center'>
     <section className="py-20">
     <div className="container mx-auto px-4">
       <div className="text-center mb-16">
@@ -59,6 +61,7 @@ function TeamSection() {
     </div>
   </section>
   </div>
+  </Element>
   )
 }
 
