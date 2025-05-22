@@ -1,4 +1,3 @@
-
 # MockVault
 
 MockVault is an innovative platform designed to help technical students excel in their interview preparations. It provides an extensive collection of mock interview questions, company-specific problems, and DSA challenges to enhance problem-solving skills.
